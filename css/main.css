@@ -1,0 +1,114 @@
+/* Общраение через тег */
+p {
+    /* Цвет текста */
+    color: #000000; 
+}
+
+/* Стили для редактирования текста:  */
+
+/* Обращение через класс */
+.simple-text {
+    /* Размер шрифта */
+    font-size: 20px;
+
+    /* Цвет текста */
+    color: black;
+
+    /* Декорирование текста */
+    text-decoration: underline;
+
+    /* Толщина шрифта */
+    font-weight: 100;
+
+    /* Название шрифта */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* Стиль текста */
+    font-style: italic;
+
+    /* Форматирование текста */
+    text-align: justify;
+}
+
+
+/* Стиль display для позиционирования элементов */
+span{
+    display: block;
+}
+
+.simple-text-string {
+    display: inline;
+}
+
+/* Добавление фона */
+.blue-background{
+    /* Фон */
+    background: red;
+
+    /* Фон (цвет) */
+    background-color: white;
+}
+
+body{
+    /* Фон (изображение) */
+    background-image: url(../img/background/2.jpeg);
+
+    /* Повторение фона на странице */
+    background-repeat: no-repeat;
+
+    /* Растяжение изображения фона */
+    background-size: cover;
+}
+
+/* Ширина, высота и отступы и границы */
+.div1{
+    background: green;
+    height: 400px;
+    width: 300px;
+    margin: 25px;
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    border: 5px dashed red;
+    border-bottom: 3px solid yellow;
+    border-top: 10px dotted blue;
+    border-bottom-style: double;
+    border-radius: 15px;
+}
+
+.div2{ 
+    background: red;
+    width: fit-content;
+    padding: 20px 25px;
+    padding-bottom: 70px;
+    min-width: 400px;
+    min-height: 500px;
+    width: 5000px;
+    max-width: 1000px;
+}
+
+
+
+
+
+/* Обращение через id */
+/*#first-section {
+    font-size: 5px;
+}
+
+.green{
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.yellow {
+    color: yellow;
+}*/
